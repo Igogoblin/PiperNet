@@ -1,1 +1,200 @@
 /* w110   */
+body {
+  max-width: 2011px;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+   background-color: #007765;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto ;
+}
+section {
+  margin: 0;
+}
+h1,h2,p,body{
+  margin: 0;
+}
+.header {
+   height: 84px;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+}
+
+.header-logo {
+  width: 184px;
+  height: 45px;
+  background-image: url('./assets/Vector.svg');
+
+}
+.header-nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+.header-nav a{
+  text-decoration: none;
+  color: #FFFFFF;
+  
+}
+.titl {
+  background-image: url('./assets/imageHeader.png');
+  height: 403px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: #FFFFFF;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+}
+
+h2 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+color: #007765;
+padding-bottom: 16px;
+}
+.problev {
+  background: #EEEEEE;
+  height: 719px;
+  padding-top: 48px;
+}
+.problev .container {
+  display: flex;
+  flex-direction: column;
+}
+.proplem-title {
+  text-align: center;
+}
+.problem-text {
+  height: 488px;
+}
+.proplem-text p{
+  text-align: justify;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+}
+.slogan {
+  height: 483px;
+  background-image: url('./assets/imageMain.png');
+  display: flex;
+  justify-content: center;
+ 
+}
+.slogan-text {
+  width: 893px;
+  font-family: 'Roboto';
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+ padding: 127px 0;
+color: #FFFFFF;
+}
+.introduc {
+  display: flex;
+  flex-direction: column;
+}
+.introduc .container {
+  width: 1110px;
+}
+.intro-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+}
+.introduc-logo {
+  background-image: url('./assets/PPC Logo.svg');
+  width: 115px;
+  height: 115px;
+  float: left;
+  margin-right: 48px;
+}
+.introduc-text {
+  margin-bottom: 92px;
+}
+.introduc-text p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+}
+.team {
+  background: #EEEEEE;
+}
+.team .container {
+  display: flex;
+  flex-direction: column;
+}
+.team-title {
+  display: flex;
+  justify-content: center;
+margin: 58px 0 32px 0;
+}
+.team-selars {
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-saral {
+  width: 350px;
+  height: 283px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 49px;
+}
+.salar-img {
+  margin-bottom: 12px;
+}
+.salar-name {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+}
+.salar-post {
+  font-family: 'Roboto';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+}
+footer {
+  height: 176px;
+  background: #333333;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  max-width: 540px;
+  width: 100%;
+  text-align: center;
+}
